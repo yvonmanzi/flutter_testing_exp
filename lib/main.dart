@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'names_list.dart';
+
 void main() {
-  runApp(MyApp());
+  runApp(ListApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -19,8 +21,10 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text(title),
         ),
-        body: Center(
-          child: Text(message),
+        body: Scaffold(
+          body: Center(
+            child: Text(message),
+          ),
         ),
       ),
     );
