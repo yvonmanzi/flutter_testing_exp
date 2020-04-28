@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-
-import 'names_list.dart';
+import 'package:flutter_testing/loading_app.dart';
 
 void main() {
-  runApp(ListApp());
+  runApp(LoadingApp());
 }
 
 class MyApp extends StatelessWidget {
